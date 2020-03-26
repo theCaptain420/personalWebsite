@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import WelcomeModule from './Components/welcome';
+import WelcomeModule from './Components/welcomeMod/welcome';
 
 
 function App() {
