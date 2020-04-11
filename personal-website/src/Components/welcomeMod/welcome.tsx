@@ -10,11 +10,10 @@ export default class WelcomeIntro extends React.Component<IWelcomeIntroProps> {
     return (
       <div className="wholePage">
         <WebHeader/>
-        <p className="headerText">
+        <p className="wHeaderText">
             Welcome to my page
         </p> 
-
-        <p className="normalText">
+        <p className="wNormalText">
           hello
         </p>
 
