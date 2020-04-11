@@ -1,11 +1,11 @@
 .wHeaderText{
-font-size: 25px;
+font-size: large;
 font-weight: bold;
-color: #fff;
+color: #36393F;
 
 }
-.WNormalText{
-    color:#dcddde
+.wNormalText{
+    color:darkgray
 }
 .wholePage{
     flex-direction: row;
