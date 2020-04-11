@@ -6,7 +6,7 @@ import WelcomeModule from './Components/welcomeMod/welcome';
 
 function App() {
   return (
-    <div className="App">
+    <div >
       <WelcomeModule></WelcomeModule>
         
     </div>
