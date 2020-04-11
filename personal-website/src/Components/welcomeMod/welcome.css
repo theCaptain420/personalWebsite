@@ -6,6 +6,8 @@ color: #fff;
 .normalText{
     color:#dcddde
 }
-.header{
-    background-color: #36393F;
+.wholePage{
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
 }
