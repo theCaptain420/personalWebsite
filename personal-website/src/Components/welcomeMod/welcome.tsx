@@ -2,7 +2,7 @@ import * as React from 'react';
 import './welcome.css'
 import WebHeader from '../themeComponents/WebHeader'
 import WebFooter from '../themeComponents/WebFooter'
-import getWeather from './weatherGetter/getWeather'
+import WeatherPrinter from './weatherGetter/WeatherPrinter'
 
 export interface IWelcomeIntroProps {
 }
@@ -17,7 +17,7 @@ export default class WelcomeIntro extends React.Component<IWelcomeIntroProps> {
         </p> 
         <p className="wNormalText">
           hello, the weather today is <br/>
-          {getWeather}
+          <WeatherPrinter/>
         </p>
         <WebFooter/>
       </div>
