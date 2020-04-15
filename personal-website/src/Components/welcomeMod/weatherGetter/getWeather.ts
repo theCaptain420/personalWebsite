@@ -12,8 +12,6 @@ export async function getWeather() {
     responseTemp=roundTemp(responseTemp);
 
     return responseTemp
-
-
 }
 
 function roundTemp(temperature:number):number{
