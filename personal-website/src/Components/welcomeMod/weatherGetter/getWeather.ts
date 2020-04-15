@@ -7,12 +7,18 @@ export async function getWeather() {
             'Content-Type': 'application/json',
             "XMLHttpRequest":"X-Requested-With"
         }
-    }).then(resp => resp.json()).then(respJSON => respJSON.consolidated_weather[0].the_temp)
+    }).then(resp => resp.json()).then(respJSON => respJSON.consolidated_weather[0].the_temp).catch(err=>console.log(err))
 
-    //let tempPrint = responseTemp.toString()
-    //console.log(tempPrint)
+    responseTemp=roundTemp(responseTemp);
+
     return responseTemp
 
 
+}
+
+function roundTemp(temperature:number):number{
+    let roundedNumber:number;
+    roundedNumber=Math.round(temperature)
+    return roundedNumber;
 }
 
