@@ -1,5 +1,5 @@
 import * as React from 'react';
-import ProjectGithub from './ProjectGithub'
+import ProjectTitle from './ProjectTitle'
 import './projectStyle.css'
 
 
@@ -9,7 +9,6 @@ export default ()=>{
             <p>
                 Hey
             </p>
-            
         </div>
     )
 }

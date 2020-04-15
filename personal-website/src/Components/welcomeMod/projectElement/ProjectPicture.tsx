@@ -1,7 +1,5 @@
 import * as React from 'react';
-import ProjectGithub from './ProjectGithub'
 import './projectStyle.css'
-
 
 export default ()=>{
     return(
@@ -9,7 +7,6 @@ export default ()=>{
             <p>
                 Hey
             </p>
-            
         </div>
     )
 }

@@ -4,7 +4,7 @@ import WebHeader from '../themeComponents/WebHeader'
 import WebFooter from '../themeComponents/WebFooter'
 import WeatherPrinter from './weatherGetter/WeatherPrinter'
 import IntroText from './IntroText'
-import Project from './projectElement/Project'
+import ProjectPrinter from './projectElement/ProjectPrinter'
 
 export interface IWelcomeIntroProps {
 }
@@ -22,7 +22,7 @@ export default class WelcomeIntro extends React.Component<IWelcomeIntroProps> {
           <WeatherPrinter/>
         </p>
         <IntroText></IntroText>
-        <Project/>
+        <ProjectPrinter/>
         <WebFooter/>
       </div>
     );
