@@ -3,6 +3,7 @@ import './welcome.css'
 import WebHeader from '../themeComponents/WebHeader'
 import WebFooter from '../themeComponents/WebFooter'
 import WeatherPrinter from './weatherGetter/WeatherPrinter'
+import IntroText from './IntroText'
 
 export interface IWelcomeIntroProps {
 }
@@ -16,9 +17,10 @@ export default class WelcomeIntro extends React.Component<IWelcomeIntroProps> {
             Welcome to my page
         </p> 
         <p className="wNormalText">
-          hello, the weather today is <br/>
+          Hello, the weather today is
           <WeatherPrinter/>
         </p>
+        <IntroText></IntroText>
         <WebFooter/>
       </div>
     );
