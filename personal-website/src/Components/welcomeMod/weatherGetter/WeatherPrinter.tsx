@@ -17,7 +17,7 @@ export default class WeatherPrinter extends React.Component<{},WeatherState> {
     }
 
     componentWillMount(){
-        this.setState({temp:"lol"})
+        this.setState({temp:"loading"})
         this.printTheWeather();
     }
 
