@@ -9,7 +9,7 @@ export default ({picRef}:Props)=>{
     return(
         <div>
             <p>
-                Hey
+                {picRef}
             </p>
         </div>
     )

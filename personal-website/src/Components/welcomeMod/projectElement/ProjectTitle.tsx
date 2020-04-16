@@ -9,7 +9,7 @@ export default ({title}:props)=>{
     return(
         <div>
             <p>
-                Hey
+                {title}
             </p>
         </div>
     )
