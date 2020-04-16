@@ -1,7 +1,11 @@
 import * as React from 'react';
 import './projectStyle.css'
 
-export default ()=>{
+type Props={
+    picRef:string
+}
+
+export default ({picRef}:Props)=>{
     return(
         <div>
             <p>
