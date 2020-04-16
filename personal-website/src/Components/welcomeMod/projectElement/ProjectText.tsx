@@ -3,9 +3,10 @@ import ProjectTitle from './ProjectTitle'
 import './projectStyle.css'
 
 type Props={
-    text:string
+    text:string,
+    title:string
 }
-export default ({text}:Props)=>{
+export default ({text,title}:Props)=>{
     return(
         <div>
             <p>

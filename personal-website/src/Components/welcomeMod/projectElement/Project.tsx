@@ -17,9 +17,8 @@ type ProjectProps = {
 export default ({title,description,pictureRef,link}:ProjectProps)=>{
     return(
         <div>
-            <p>
-                
-            </p>
+            <ProjectText text={description} title={title} />
+            <ProjectPicture picRef={pictureRef}/>
             <ProjectLink link={link} />
         </div>
     )
