@@ -1,5 +1,8 @@
 import * as React from 'react';
 import ProjectLink from './ProjectLink'
+import ProjectTitle from './ProjectTitle'
+import ProjectText from './ProjectText'
+import ProjectPicture from './ProjectPicture'
 import './projectStyle.css'
 
 
@@ -15,9 +18,9 @@ export default ({title,description,pictureRef,link}:ProjectProps)=>{
     return(
         <div>
             <p>
-                {title}
+                
             </p>
-            
+            <ProjectLink link={link} />
         </div>
     )
 }
