@@ -8,9 +8,9 @@ type LinkProps={
 export default ({link}:LinkProps)=>{
     return(
         <div>
-            <p>
-                {link}
-            </p>
+            <button className="linkButton" onClick={()=>window.open(link)}>
+                open project here!
+            </button>
         </div>
     )
 }
