@@ -1,12 +1,15 @@
 import * as React from 'react';
 import './projectStyle.css'
 
+type LinkProps={
+    link:string
+}
 
-export default ()=>{
+export default ({link}:LinkProps)=>{
     return(
         <div>
             <p>
-                Hey
+                {link}
             </p>
         </div>
     )
