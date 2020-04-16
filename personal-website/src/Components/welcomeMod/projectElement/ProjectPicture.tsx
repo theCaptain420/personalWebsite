@@ -8,9 +8,7 @@ type Props={
 export default ({picRef}:Props)=>{
     return(
         <div>
-            <p>
-                {picRef}
-            </p>
+            <img src={picRef} className="projectPicture"/>
         </div>
     )
 }
