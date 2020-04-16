@@ -1,13 +1,21 @@
 import * as React from 'react';
-import ProjectGithub from './ProjectGithub'
+import ProjectLink from './ProjectLink'
 import './projectStyle.css'
 
 
-export default ()=>{
+type ProjectProps = {
+    title:string,
+    description:string,
+    pictureRef:string,
+    link:string
+}
+
+
+export default ({title,description,pictureRef,link}:ProjectProps)=>{
     return(
         <div>
             <p>
-                Hey
+                {title}
             </p>
             
         </div>
