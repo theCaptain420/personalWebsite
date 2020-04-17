@@ -24,14 +24,11 @@
 .mainProjectClass{
     margin-left: 15%;
     margin-right: 15%;
+    display: flex;
 }
 #leftProjectBox{
-    float: left;;
-    overflow:hidden;
-    width: 30%;
+    flex: 1; 
 }
 #rightProjectBox{
-    float:right;
-    overflow:hidden;
-    width: 70%;
+    flex: 2; 
 } 

@@ -8,11 +8,14 @@
     color:#fff
 }
 .footerBackground{
+    float: bottom;
 
 }
 .footerText{
     font-size: small;
     padding: 15px;
     color:#dcddde;
+
+    
 
 }
