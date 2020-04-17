@@ -22,12 +22,16 @@
     object-fit: cover;
 }
 .mainProjectClass{
+    margin-left: 15%;
+    margin-right: 15%;
 }
 #leftProjectBox{
-    float:left;
+    float: left;;
     overflow:hidden;
+    width: 30%;
 }
 #rightProjectBox{
     float:right;
     overflow:hidden;
+    width: 70%;
 } 
