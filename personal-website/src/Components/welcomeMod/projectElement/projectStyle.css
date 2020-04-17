@@ -9,11 +9,9 @@
   font-size: 16px;
   border-radius: 5px;
   transition: 1.5s ease;
-
 }
 .linkButton:hover{
     background-color: lightgray;
-
 }
 .projectPicture{
     border-radius: 5px;
@@ -25,6 +23,9 @@
     margin-left: 15%;
     margin-right: 15%;
     display: flex;
+}
+.mainProjectClass:nth-child(odd){
+    flex-direction: row-reverse;
 }
 #leftProjectBox{
     flex: 1; 
