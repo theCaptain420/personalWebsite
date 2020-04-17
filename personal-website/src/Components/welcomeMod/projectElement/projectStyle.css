@@ -24,7 +24,7 @@
     margin-right: 15%;
     display: flex;
 }
-.mainProjectClass:nth-child(odd){
+.mainProjectClass:nth-child(even){
     flex-direction: row-reverse;
 }
 #leftProjectBox{
