@@ -16,10 +16,10 @@ type ProjectProps = {
 export default ({ title, description, pictureRef, link }: ProjectProps) => {
     return (
         <div className="mainProjectClass">
-            <div id="leftProjectBox">
+            <div id="projectPictureBox">
                 <ProjectPicture picRef={pictureRef} />
             </div>
-            <div id="rightProjectBox">
+            <div id="projectTextBox">
                 <ProjectText text={description} title={title} />
                 <ProjectLink link={link} />
             </div>

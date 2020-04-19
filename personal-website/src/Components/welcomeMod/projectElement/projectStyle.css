@@ -28,13 +28,14 @@
 .mainProjectClass:nth-child(even){
     flex-direction: row-reverse;
 }
-#leftProjectBox{
+#projectPictureBox{
     flex: 1; 
 }
-#rightProjectBox{
+#projectTextBox{
     flex: 2; 
     background-color: darkorange;
     margin-top: 50px;
     border-top-left-radius:15px ;
     border-top-right-radius: 15px;
+    margin-bottom: 3px;
 }
