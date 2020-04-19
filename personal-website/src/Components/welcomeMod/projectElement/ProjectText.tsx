@@ -8,7 +8,7 @@ type Props={
 }
 export default ({text,title}:Props)=>{
     return(
-        <div>
+        <div >
             <ProjectTitle title={title}/>
             <p>
                 {text}
