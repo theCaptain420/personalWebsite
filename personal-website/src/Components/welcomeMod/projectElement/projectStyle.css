@@ -20,9 +20,10 @@
     object-fit: cover;
 }
 .mainProjectClass{
+    margin-top: 20px;
     margin-left: 15%;
     margin-right: 15%;
-    display: flex;
+    display: flex;    
 }
 .mainProjectClass:nth-child(even){
     flex-direction: row-reverse;
@@ -32,4 +33,8 @@
 }
 #rightProjectBox{
     flex: 2; 
-} 
+    background-color: darkorange;
+    margin-top: 50px;
+    border-top-left-radius:15px ;
+    border-top-right-radius: 15px;
+}
