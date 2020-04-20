@@ -8,7 +8,7 @@ type props={
 export default ({title}:props)=>{
     return(
         <div>
-            <p>
+            <p className="projectTitle">
                 {title}
             </p>
         </div>

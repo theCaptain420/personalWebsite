@@ -10,7 +10,7 @@ export default ({text,title}:Props)=>{
     return(
         <div >
             <ProjectTitle title={title}/>
-            <p>
+            <p className="projectDesText">
                 {text}
             </p>
         </div>
