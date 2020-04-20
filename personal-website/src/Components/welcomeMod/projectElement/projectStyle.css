@@ -33,15 +33,18 @@
 }
 #projectTextBox{
     flex: 2; 
-    background-color: darkorange;
+    background-color: #d3d2cf;
     margin-top: 50px;
-    border-top-left-radius:15px ;
-    border-top-right-radius: 15px;
-    margin-bottom: 3px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+
+    border-bottom-width: 20px;
+    border-color: blue;
 }
 .projectDesText{
     color: white;
 }
 .projectTitle{
-    color:red
+    color:#F16A22
 }
