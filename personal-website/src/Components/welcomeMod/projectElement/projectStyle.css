@@ -35,12 +35,8 @@
     flex: 2; 
     background-color: #d3d2cf;
     margin-top: 50px;
-    margin-bottom: 50px;
     border-radius: 15px;
     margin-bottom: 50px;
-
-    border-bottom-width: 20px;
-    border-color: blue;
 }
 .projectDesText{
     color: white;
