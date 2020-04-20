@@ -33,7 +33,7 @@
 }
 #projectTextBox{
     flex: 2; 
-    background-color: #d3d2cf;
+    background-color: #F16A22;
     margin-top: 50px;
     border-radius: 15px;
     margin-bottom: 50px;
@@ -42,5 +42,5 @@
     color: white;
 }
 .projectTitle{
-    color:#F16A22
+    color:white
 }
