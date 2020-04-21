@@ -29,6 +29,7 @@
 .mainProjectClass:nth-child(even){
     flex-direction: row-reverse;
 }
+
 #projectPictureBox{
     flex: 1; 
 }
@@ -47,4 +48,14 @@
     color:white;
     font-weight: bold;
     font-size: large;
+}
+
+/*PHONE ADJUSTMENTS*/
+@media only screen and (max-width: 600px) {
+    .mainProjectClass {
+      flex-direction: column;
+    }
+    .mainProjectClass:nth-child(even) {
+        flex-direction: column;
+    }
 }
