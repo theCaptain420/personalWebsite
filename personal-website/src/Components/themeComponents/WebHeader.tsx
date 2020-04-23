@@ -4,7 +4,7 @@ import './themeStyle.css'
 export default ()=>{
     return(
         <div className="headerBackground">
-            <p className="headerText">Mads' side</p>
+            <p className="headerText">Velkommen</p>
         </div>
     )
 }

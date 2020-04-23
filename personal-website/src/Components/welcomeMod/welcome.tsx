@@ -15,10 +15,10 @@ export default class WelcomeIntro extends React.Component<IWelcomeIntroProps> {
       <div className="wholePage">
         <WebHeader/>
         <p className="wHeaderText">
-            Welcome to my page
+            Mit CV
         </p> 
         <p className="wNormalText">
-          Hello, the weather today is
+          Idag er vejret
           <WeatherPrinter/>
         </p>
         <IntroText></IntroText>
