@@ -45,6 +45,8 @@
 .projectDesText{
     color: white;
     font-weight: bold;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .projectTitle{
     color:white;
