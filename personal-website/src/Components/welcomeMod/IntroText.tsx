@@ -4,8 +4,8 @@ import './welcome.css'
 export default()=>{
     return(
         <div>
-            <p className="wNormalText" >
-                This page will show you all my mayor projects and applications <br/> that I've made throughout my years as a developer.
+            <p className="wNormalText" style={{marginBottom:"50px"}}>
+                Denne side vil vise alle mine større projekter,<br/>som jeg har lavet igennem årene som udvikler.
             </p>
         </div>
     )
