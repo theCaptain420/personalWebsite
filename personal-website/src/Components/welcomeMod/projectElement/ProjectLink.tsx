@@ -2,14 +2,15 @@ import * as React from 'react';
 import './projectStyle.css'
 
 type LinkProps={
-    link:string
+    link:string,
+    buttonText:string
 }
 
-export default ({link}:LinkProps)=>{
+export default ({link,buttonText}:LinkProps)=>{
     return(
         <div>
             <button className="linkButton" onClick={()=>window.open(link)}>
-                open project here!
+                {buttonText}
             </button>
         </div>
     )

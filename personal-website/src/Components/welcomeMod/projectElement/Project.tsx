@@ -9,11 +9,12 @@ type ProjectProps = {
     title: string,
     description: string,
     pictureRef: string,
-    link: string
+    link: string,
+    buttonText: string
 }
 
 
-export default ({ title, description, pictureRef, link }: ProjectProps) => {
+export default ({ title, description, pictureRef, link, buttonText }: ProjectProps) => {
     return (
         <div className="mainProjectClass">
             <div id="projectPictureBox">
@@ -21,7 +22,7 @@ export default ({ title, description, pictureRef, link }: ProjectProps) => {
             </div>
             <div id="projectTextBox">
                 <ProjectText text={description} title={title} />
-                <ProjectLink link={link} />
+                <ProjectLink link={link} buttonText={buttonText} />
             </div>
         </div>
     )
