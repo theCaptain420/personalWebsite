@@ -15,7 +15,7 @@ export default class WelcomeIntro extends React.Component<IWelcomeIntroProps> {
       <div className="wholePage">
         <WebHeader/>
         <p className="wHeaderText">
-            Mit CV
+            Velkommen til mit CV
         </p> 
         <p className="wNormalText">
           Idag er vejret
