@@ -2,22 +2,22 @@
     "projects": [
         {
             "title": "Om mig",
-            "description": "Dette afsnit omhandler mig",
+            "description": "Mit navn er Mads. Jeg har stor interesse i programmering, web/mobil udvikling og eSport. For at se hvad jeg laver lige fortiden, kan du se min github som er linket lige nedenunder.",
             "link": "https://github.com/theCaptain420",
             "linkText":"Link til LinkedIn!",
-            "pictureRef": "https://images.unsplash.com/photo-1573935146153-f6322e84d1e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+            "pictureRef": "mePhoto.jpg"
         },{
             "title": "Datamatiker",
             "description": "Dette afsnit omhandler mig",
             "link": "https://github.com/theCaptain420",
             "linkText":"Link til Github!",
-            "pictureRef": "https://images.unsplash.com/photo-1573935146153-f6322e84d1e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+            "pictureRef": "zealandlogo.png"
         },{
             "title": "Thormasters",
             "description": "Dette afsnit omhandler mig",
             "link": "https://github.com/theCaptain420",
             "linkText":"Link til App!",
-            "pictureRef": "https://images.unsplash.com/photo-1573935146153-f6322e84d1e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+            "pictureRef": "thormasters.PNG"
         },{
             "title": "VODwithBerg Kalorietæller",
             "description": "Dette afsnit omhandler mig",
