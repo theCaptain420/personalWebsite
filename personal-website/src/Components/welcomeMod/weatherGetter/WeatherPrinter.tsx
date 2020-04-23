@@ -24,7 +24,7 @@ export default class WeatherPrinter extends React.Component<{},WeatherState> {
     render() {
     return (
       <div >
-          {this.state.temp} degrees celcius
+          {this.state.temp} grader celcius
       </div>
     );
   }
