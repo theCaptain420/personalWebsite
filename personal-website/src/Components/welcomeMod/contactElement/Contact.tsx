@@ -11,7 +11,10 @@ export default () => {
             </p>
             <p className="contactText">
                Telefon: +45 28 97 03 12 <br/>
-               Email: mads.nielsen@hotmail.com
+               Email: mads.nielsen@hotmail.com <br/>
+               LinkedIn: <a className="contactText" href='https://www.linkedin.com/in/mads-nielsen-768653110/'> 
+                 https://www.linkedin.com/in/mads-nielsen-768653110/
+               </a>
             </p>
         </div>
     )
