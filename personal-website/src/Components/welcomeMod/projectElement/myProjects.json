@@ -3,37 +3,37 @@
         {
             "title": "Om mig",
             "description": "Hej, mit navn er Mads. Jeg har stor interesse i programmering, web/mobil udvikling og eSport. For at se hvad jeg laver lige fortiden, kan du se min github som er linket lige nedenunder.",
-            "link": "https://github.com/theCaptain420",
+            "link": "https://www.linkedin.com/in/mads-nielsen-768653110/",
             "linkText":"Link til LinkedIn!",
             "pictureRef": "mePhoto.jpg"
         },{
             "title": "Datamatiker",
-            "description": "I år 2020 blev jeg færdig med min datamatiker uddannelse hos Zealand Næstved, med et gennemsnit på 11,67",
+            "description": "I år 2020 blev jeg færdig med min datamatiker uddannelse hos Zealand i Næstved, med et gennemsnit på 11,67. Under uddannelsen har jeg haft fokus på mobil udvikling samt haft valgfag som Webudikling.",
             "link": "https://github.com/theCaptain420",
-            "linkText":"Link til Github!",
+            "linkText":"Link til min Github!",
             "pictureRef": "zealandlogo.png"
         },{
-            "title": "Thormasters",
-            "description": "Dette afsnit omhandler mig",
-            "link": "https://github.com/theCaptain420",
+            "title": "Thor Masters",
+            "description": "Thor Masters er en app lavet for en af verdens største brydestævner/turneringer, der er afholdt af brydeklubben Thor. Appen er lavet i React Native og findes lige pt. i Google play store til download.",
+            "link": "https://play.google.com/store/apps/details?id=com.thorapp",
             "linkText":"Link til App!",
             "pictureRef": "thormasters.PNG"
         },{
-            "title": "VODwithBerg Kalorietæller",
-            "description": "Dette afsnit omhandler mig",
-            "link": "https://github.com/theCaptain420",
+            "title": "VODwithBerg Kalorieberegner",
+            "description": "En kalorieberegner, samt måltidsplanlægning, til fitnesscenteret WODwithBerg Gym’s kunder. Den er lavet i normal CSS/HTML/JS, og er stadig under udvikling.",
+            "link": "https://www.wodwithberg.dk/",
             "linkText":"Link til kunde!",
             "pictureRef": "personligtraner.png"
         },{
             "title": "LoLwarmUP",
-            "description": "Dette afsnit omhandler mig",
-            "link": "https://github.com/theCaptain420",
+            "description": "Et træningsværktøj lavet i samarbejde med professionelle eSports spillere. Appen er lavet ved brug af HTML Canvas og bliver udgivet når denne sæson er slut.",
+            "link": "http://lolwarmup.tk/",
             "linkText":"Link til Alphaen!",
             "pictureRef": "lolwarm.png"
         },{
             "title": "Praktik hos Supeo",
-            "description": "Dette afsnit omhandler mig",
-            "link": "https://github.com/theCaptain420",
+            "description": "Min praktikplads, hvor jeg arbejdede med deres nye React Native applikation. Mine opgaver var at lave dokumenthåndtering samt sags modul, til app'en. Den er ikke udgivet endnu, da Supeo ikke er færdige med den. Jeg har fra stedet fået en super udtalelse, som jeg kan sende hvis der er interesse.",
+            "link": "http://supeo.dk",
             "linkText":"Link til deres hjemmeside!",
             "pictureRef": "supeo.png"
         }
