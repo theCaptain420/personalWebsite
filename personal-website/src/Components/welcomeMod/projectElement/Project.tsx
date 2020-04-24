@@ -20,7 +20,7 @@ export default ({ title, description, pictureRef, link, buttonText }: ProjectPro
             <div id="projectPictureBox">
                 <ProjectPicture picRef={pictureRef} />
             </div>
-            <div id="projectTextBox">
+            <div className="projectTextBox">
                 <ProjectText text={description} title={title} />
                 <ProjectLink link={link} buttonText={buttonText} />
             </div>

@@ -26,21 +26,29 @@
     margin-right: 5%;
     display: flex;    
 }
-.mainProjectClass:nth-child(even){
+.mainProjectClass:nth-child(even) {
     flex-direction: row-reverse;
+}
+.mainProjectClass:nth-child(even) .projectTextBox {
+    flex-direction: row-reverse;
+    border-radius: 0px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
 }
 
 #projectPictureBox{
     flex: 1; 
 }
-#projectTextBox{
-    flex: 2; 
+.projectTextBox{
+    flex:100; 
     background-color: #F16A22;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
+ 
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
 }
+
 .projectDesText{
     color: white;
     font-weight: bold;
