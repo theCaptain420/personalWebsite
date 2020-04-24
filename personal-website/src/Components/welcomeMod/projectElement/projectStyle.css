@@ -15,7 +15,7 @@
     background-color: #d6d5cf;
 }
 .projectPicture{
-    border-radius: 5px;
+    border-radius: 25px;
     width: 300px;
     height: 500px;
     object-fit: cover;
@@ -37,7 +37,6 @@
     flex: 2; 
     background-color: #F16A22;
     margin-top: 50px;
-    border-radius: 15px;
     margin-bottom: 50px;
     margin-left: 10px;
     margin-right: 10px;
@@ -47,11 +46,12 @@
     font-weight: bold;
     margin-left: 100px;
     margin-right: 100px;
+    font-size: large;
 }
 .projectTitle{
     color:white;
     font-weight: bold;
-    font-size: large;
+    font-size: 35px;
 }
 
 /*PHONE ADJUSTMENTS*/
