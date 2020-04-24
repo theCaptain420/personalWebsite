@@ -18,7 +18,6 @@ export default class WelcomeIntro extends React.Component<IWelcomeIntroProps> {
             Velkommen til mit CV
         </p> 
         <p className="wNormalText">
-          Idag er vejret
           <WeatherPrinter/>
         </p>
         <IntroText></IntroText>
