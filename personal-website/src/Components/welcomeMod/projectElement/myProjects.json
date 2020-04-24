@@ -23,19 +23,19 @@
             "description": "Dette afsnit omhandler mig",
             "link": "https://github.com/theCaptain420",
             "linkText":"Link til kunde!",
-            "pictureRef": "https://images.unsplash.com/photo-1573935146153-f6322e84d1e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+            "pictureRef": "personligtraner.png"
         },{
             "title": "LoLwarmUP",
             "description": "Dette afsnit omhandler mig",
             "link": "https://github.com/theCaptain420",
             "linkText":"Link til Alphaen!",
-            "pictureRef": "https://images.unsplash.com/photo-1573935146153-f6322e84d1e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+            "pictureRef": "lolwarm.png"
         },{
-            "title": "Praktik hos Supeo Flex",
+            "title": "Praktik hos Supeo",
             "description": "Dette afsnit omhandler mig",
             "link": "https://github.com/theCaptain420",
             "linkText":"Link til deres hjemmeside!",
-            "pictureRef": "https://images.unsplash.com/photo-1573935146153-f6322e84d1e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+            "pictureRef": "supeo.png"
         }
         
         
