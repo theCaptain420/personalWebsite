@@ -17,6 +17,11 @@ var fakeData = require('./fakecountJson.json')
         })
     })
 
+    let dataToArrayMonth = Object.keys(dataMonths)
+    for(let i = dataToArrayMonth.length-1; i>=0; i--){
+        console.log(dataToArrayMonth[i])
+    }
+
     return 0;
 }
 countGithubStreak();
