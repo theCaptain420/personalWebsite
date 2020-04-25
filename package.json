@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/theCaptain420/personalWebsite/issues"
   },
-  "homepage": "https://github.com/theCaptain420/personalWebsite#readme"
+  "homepage": "https://github.com/theCaptain420/personalWebsite#readme",
+  "devDependencies": {
+    "jest": "^25.4.0"
+  },
+  "dependencies": {
+    "@types/jest": "^25.2.1"
+  }
 }
