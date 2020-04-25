@@ -5,6 +5,7 @@ var fakeData = require('./fakecountJson.json')
     
   
     let daysInARowCommited = 0;
+    let onTheDayVariable = true;
 
     let dataMonths=fakeData.data[2020];
 
@@ -12,9 +13,13 @@ var fakeData = require('./fakecountJson.json')
     for(let i = dataToArrayMonth.length; i>0; i--){
         let dataToArrayDay= Object.keys(dataMonths[i])
         for(let k = dataToArrayDay.length; k>0; k--){
-            console.log(dataMonths[i][k])
             if(dataMonths[i][k]==false){
-                return daysInARowCommited;
+                if (onTheDayVariable == false){
+                    return daysInARowCommited;
+                }
+                if(onTheDayVariable==true){
+                    onTheDayVariable = false
+                }
             }
             daysInARowCommited++; 
         }
