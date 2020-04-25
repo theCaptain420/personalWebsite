@@ -18,12 +18,12 @@ var fakeData = require('./fakecountJson.json')
     })
 
     let dataToArrayMonth = Object.keys(dataMonths)
-    for(let i = dataToArrayMonth.length-1; i>=0; i--){
-        let dataToArrayDay = Object.keys(dataToArrayMonth[i])
-        console.log(dataToArrayDay)
-        for(let k = dataToArrayDay.length-1; k>=0; k--){
+    for(let i = dataToArrayMonth.length; i>0; i--){
+        console.log(Object.keys(dataMonths[i]))
+
+        /*for(let k = dataToArrayDay.length-1; k>=0; k--){
             console.log(dataToArrayDay[i])
-        }
+        }*/
     }
     
 
