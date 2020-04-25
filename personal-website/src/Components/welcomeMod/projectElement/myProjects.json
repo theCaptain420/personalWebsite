@@ -23,13 +23,13 @@
             "description": "En kalorieberegner, samt måltidsplanlægning, til fitnesscenteret WODwithBerg Gym’s kunder. Den er lavet i normal CSS/HTML/JS, og er stadig under udvikling.",
             "link": "https://www.wodwithberg.dk/",
             "linkText":"Link til kunde!",
-            "pictureRef": "personligtraner.png"
+            "pictureRef": "personligtraner.PNG"
         },{
             "title": "LoLwarmUP",
             "description": "Et træningsværktøj lavet i samarbejde med professionelle eSports spillere. Appen er lavet ved brug af HTML Canvas og bliver udgivet når denne sæson er slut.",
             "link": "http://lolwarmup.tk/",
             "linkText":"Link til Alphaen!",
-            "pictureRef": "lolwarm.png"
+            "pictureRef": "lolwarm.PNG"
         },{
             "title": "Praktik hos Supeo",
             "description": "Min praktikplads, hvor jeg arbejdede med deres nye React Native applikation. Mine opgaver var at lave dokumenthåndtering samt sags modul, til app'en. Den er ikke udgivet endnu, da Supeo ikke er færdige med den. Jeg har fra stedet fået en super udtalelse, som jeg kan sende hvis der er interesse.",
