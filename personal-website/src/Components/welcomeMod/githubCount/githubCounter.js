@@ -18,6 +18,7 @@ var fakeData = require('./fakecountJson.json')
                     return daysInARowCommited;
                 }
                 if(onTheDayVariable==true){
+                    daysInARowCommited--;
                     onTheDayVariable = false
                 }
             }
