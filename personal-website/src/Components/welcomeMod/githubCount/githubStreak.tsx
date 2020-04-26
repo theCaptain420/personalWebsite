@@ -25,8 +25,7 @@ export default class WeatherPrinter extends React.Component<{},GithubState> {
     return(
         <div>
             <p >
-                test
-                {this.state.githubCount}
+                My current Github day streak: {this.state.githubCount}
             </p>
         </div>
     )
