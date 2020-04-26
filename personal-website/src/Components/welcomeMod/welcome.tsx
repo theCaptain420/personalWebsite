@@ -21,8 +21,8 @@ export default class WelcomeIntro extends React.Component<IWelcomeIntroProps> {
         </p> 
         <p className="wNormalText">
           <WeatherPrinter/>
+          <GithubStreak/>
         </p>
-        <GithubStreak></GithubStreak>
         <IntroText></IntroText>
         <ProjectPrinter/>
         <ContactMe/>
