@@ -1,14 +1,13 @@
-var fakeData = require('./fakecountJson.json') 
 
- export default function countGithubStreak(){
+ export default async function countGithubStreak(){
     let account = "thecaptain420"
     
-    console.log(getGithubData(account))
+    let commitData = await getGithubData(account);
 
     let daysInARowCommited = 0;
     let onTheDayVariable = true;
 
-    let dataMonths=fakeData.data[2020];
+    let dataMonths=commitData.data[2020];
 
     let dataToArrayMonth = Object.keys(dataMonths)
     for(let i = dataToArrayMonth.length; i>0; i--){
@@ -16,7 +15,7 @@ var fakeData = require('./fakecountJson.json')
         for(let k = dataToArrayDay.length; k>0; k--){
             if(dataMonths[i][k]==false){
                 if (onTheDayVariable == false){
-                    return daysInARowCommited;
+                    return ""+daysInARowCommited;
                 }
                 if(onTheDayVariable==true){
                     daysInARowCommited--;
@@ -29,29 +28,18 @@ var fakeData = require('./fakecountJson.json')
 
     
 
-    return 0;
+    return ""+0;
 }
-console.log(countGithubStreak()+ " response");
 
 
-function getGithubData(githubAccount){
+async function getGithubData(githubAccount){
     let accountLink = "https://github-contributions-api.herokuapp.com/"+githubAccount+"/activity"
-    let data = fetch(accountLink).then(resp => resp.json).catch(err => console.log(err))
+    let corsProxy = "https://cors-anywhere.herokuapp.com/";
+    let data = await fetch(corsProxy+accountLink,{
+        headers:{
+            'Content-Type': 'application/json',
+            "XMLHttpRequest":"X-Requested-With"
+        }
+    }).then(resp => resp.json()).catch(err => console.log(err))
     return data;
 }
-
-
-    /*
-
-    let daysCommited = 1;
-    let daysNotCommited = 0;
-
-    Object.keys(dataMonths).forEach(month =>{
-        Object.keys(dataMonths[month]).forEach(day=>{
-            if(dataMonths[month][day]==true){
-                daysCommited+=1;
-            }else{
-                daysNotCommited+=1;
-            }
-        })
-    })*/

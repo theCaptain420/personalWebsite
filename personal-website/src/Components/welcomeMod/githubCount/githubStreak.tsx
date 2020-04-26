@@ -1,22 +1,34 @@
 import * as React from 'react';
 import countGithubStreak from './githubCounter'
 
-type props={
+type GithubState = {
+    githubCount:string
 }
 
-export default ({}:props)=>{
-    
-    function handleclick(){
-        console.log(countGithubStreak())
+export default class WeatherPrinter extends React.Component<{},GithubState> {
+    async printTheCount(){
+        try{
+            const streak = countGithubStreak();
+            await streak.then(tempData => this.setState({githubCount:tempData}))
+        }catch(err){
+            console.log(err)
+            this.setState({githubCount:"Streak couldnt be gotten"})
+        }
     }
 
+    componentWillMount(){
+        this.setState({githubCount:"loading"})
+        this.printTheCount();
+    }
+
+    render(){
     return(
         <div>
             <p >
-                <button onClick={handleclick}>
-                    lol
-                </button>
+                test
+                {this.state.githubCount}
             </p>
         </div>
     )
+}
 }
