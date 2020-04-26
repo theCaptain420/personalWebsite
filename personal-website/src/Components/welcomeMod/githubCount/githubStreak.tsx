@@ -14,7 +14,7 @@ export default class WeatherPrinter extends React.Component<{},GithubState> {
             console.log(err)
             this.setState({githubCount:"Streak couldnt be gotten"})
         }
-    }
+    }  
 
     componentWillMount(){
         this.setState({githubCount:"loading"})
