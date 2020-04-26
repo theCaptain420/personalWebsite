@@ -1,9 +1,10 @@
 var fakeData = require('./fakecountJson.json') 
 
- function countGithubStreak(){
-    //https://github-contributions-api.herokuapp.com/thecaptain420/activity
+ export default function countGithubStreak(){
+    let account = "thecaptain420"
     
-  
+    console.log(getGithubData(account))
+
     let daysInARowCommited = 0;
     let onTheDayVariable = true;
 
@@ -31,6 +32,13 @@ var fakeData = require('./fakecountJson.json')
     return 0;
 }
 console.log(countGithubStreak()+ " response");
+
+
+function getGithubData(githubAccount){
+    let accountLink = "https://github-contributions-api.herokuapp.com/"+githubAccount+"/activity"
+    let data = fetch(accountLink).then(resp => resp.json).catch(err => console.log(err))
+    return data;
+}
 
 
     /*

@@ -6,6 +6,8 @@ import WeatherPrinter from './weatherGetter/WeatherPrinter'
 import IntroText from './IntroText'
 import ProjectPrinter from './projectElement/ProjectPrinter'
 import ContactMe from "./contactElement/Contact";
+import GithubStreak from './githubCount/githubStreak'
+
 export interface IWelcomeIntroProps {
 }
 
@@ -20,6 +22,7 @@ export default class WelcomeIntro extends React.Component<IWelcomeIntroProps> {
         <p className="wNormalText">
           <WeatherPrinter/>
         </p>
+        <GithubStreak></GithubStreak>
         <IntroText></IntroText>
         <ProjectPrinter/>
         <ContactMe/>
