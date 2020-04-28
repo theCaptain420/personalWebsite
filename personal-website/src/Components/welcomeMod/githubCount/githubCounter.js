@@ -13,11 +13,11 @@
     for(let i = dataToArrayMonth.length; i>0; i--){
         let dataToArrayDay= Object.keys(dataMonths[i])
         for(let k = dataToArrayDay.length; k>0; k--){
-            if(dataMonths[i][k]==false){
-                if (onTheDayVariable == false){
+            if(dataMonths[i][k]===false){
+                if (onTheDayVariable === false){
                     return ""+daysInARowCommited;
                 }
-                if(onTheDayVariable==true){
+                if(onTheDayVariable===true){
                     daysInARowCommited--;
                     onTheDayVariable = false
                 }
