@@ -15,3 +15,10 @@
     color: white;
     font-weight: bold;
 }
+/*PHONE ADJUSTMENTS*/
+@media only screen and (max-width: 600px) {
+    .contactBox{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
