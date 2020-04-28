@@ -24,7 +24,7 @@ export default class WeatherPrinter extends React.Component<{},WeatherState> {
     render() {
     return (
       <div >
-          Idag er vejret {this.state.temp} grader celcius
+          Vejret idag: {this.state.temp} grader celcius
       </div>
     );
   }
