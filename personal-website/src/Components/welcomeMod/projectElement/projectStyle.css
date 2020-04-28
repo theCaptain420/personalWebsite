@@ -68,9 +68,17 @@
     .mainProjectClass {
       flex-direction: column;
     }
+    .mainProjectClass .projectTextBox{
+        border-bottom-left-radius: 25px;
+    }
+
     .mainProjectClass:nth-child(even) {
         flex-direction: column;
     }
+    .mainProjectClass:nth-child(even) .projectTextBox {
+        border-bottom-right-radius: 25px;
+    }
+
     /*Adjust text for phone*/
     .projectDesText{
         color: white;
