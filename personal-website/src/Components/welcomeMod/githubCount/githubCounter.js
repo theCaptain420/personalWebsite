@@ -25,9 +25,6 @@
             daysInARowCommited++; 
         }
     }
-
-    
-
     return ""+0;
 }
 
