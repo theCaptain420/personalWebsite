@@ -8,7 +8,7 @@ type Props={
 export default ({picRef}:Props)=>{
     return(
         <div>
-            <img src={process.env.PUBLIC_URL+"/"+picRef} className="projectPicture"/>
+            <img src={process.env.PUBLIC_URL+"/"+picRef} className="projectPicture" alt="Projects"/>
         </div>
     )
 }
