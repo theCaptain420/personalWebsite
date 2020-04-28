@@ -71,4 +71,12 @@
     .mainProjectClass:nth-child(even) {
         flex-direction: column;
     }
+    /*Adjust text for phone*/
+    .projectDesText{
+        color: white;
+        font-weight: bold;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: medium;
+    }
 }
