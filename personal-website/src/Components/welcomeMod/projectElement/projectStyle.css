@@ -78,6 +78,9 @@
     .mainProjectClass:nth-child(even) .projectTextBox {
         border-bottom-right-radius: 25px;
     }
+    .linkButton{
+        margin-bottom: 25px;
+    }
 
     /*Adjust text for phone*/
     .projectDesText{
