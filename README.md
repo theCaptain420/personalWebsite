@@ -9,7 +9,5 @@ https://thecaptain420.github.io/personalWebsite/
 Should be optimised for mobile aswell.  
 
 ____________________  
-  
-Link for github pages deploy guide:  
-https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f  
+
 
