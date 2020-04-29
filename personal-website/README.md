@@ -1,4 +1,4 @@
-### npm run deploy
+### `npm run deploy`
   
 To deploy the website  
 Link for github pages deploy guide:  
