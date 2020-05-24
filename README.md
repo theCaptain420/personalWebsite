@@ -6,8 +6,8 @@ Also meant to learn me ts, and some design;)
 
 Link for website preview:  
 https://thecaptain420.github.io/personalWebsite/  
-Should be optimised for mobile aswell.  
- Test
+Is optimised for mobile aswell.  
+ 
 ____________________  
 
 
